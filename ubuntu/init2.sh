@@ -11,6 +11,12 @@ cd ~/miniconda3
 bash miniconda_install.sh
 cd ..
 conda install -c conda-forge notebook
+conda install pandas seaborn
 
 # Other programs
 sudo snap install atom --classic
+sudo snap install pycharm-community --classic
+cd ~/Downloads
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+cd ..
